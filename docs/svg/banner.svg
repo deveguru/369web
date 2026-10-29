@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="369 وب — سایت‌ساز و هاستینگ هوشمند">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0A10"/><stop offset="1" stop-color="#050508"/></linearGradient>
+    <radialGradient id="p" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7A00F0" stop-opacity=".75"/><stop offset="1" stop-color="#7A00F0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="r" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ED1908" stop-opacity=".55"/><stop offset="1" stop-color="#ED1908" stop-opacity="0"/></radialGradient>
+    <linearGradient id="txt" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#B266FF"/><stop offset=".5" stop-color="#FF3D2E"/><stop offset="1" stop-color="#C8BAE3"/>
+      <animate attributeName="x1" values="1;0;1" dur="8s" repeatCount="indefinite"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7A00F0"/><stop offset="1" stop-color="#4A0099"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7A00F0" stroke-opacity=".08"/></pattern>
+    <mask id="fade"><radialGradient id="m" cx="50%" cy="35%" r="65%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient><rect width="1200" height="440" fill="url(#m)"/></mask>
+  </defs>
+  <rect width="1200" height="440" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="28" fill="url(#grid)" mask="url(#fade)"/>
+  <circle cx="980" cy="60" r="260" fill="url(#p)"><animate attributeName="cx" values="980;920;980" dur="14s" repeatCount="indefinite"/></circle>
+  <circle cx="160" cy="420" r="230" fill="url(#r)"><animate attributeName="cy" values="420;380;420" dur="12s" repeatCount="indefinite"/></circle>
+
+  <!-- browser mockup -->
+  <g transform="translate(70 92)">
+    <rect width="400" height="258" rx="18" fill="#12121c" stroke="#7A00F0" stroke-opacity=".35"/>
+    <circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+    <rect x="86" y="13" width="290" height="18" rx="9" fill="#ffffff" fill-opacity=".05"/>
+    <rect x="22" y="52" width="356" height="84" rx="12" fill="#7A00F0" fill-opacity=".18"/>
+    <rect x="40" y="72" width="170" height="12" rx="6" fill="#F0EDF5" fill-opacity=".75"><animate attributeName="width" values="40;170;170" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="40" y="94" width="110" height="10" rx="5" fill="url(#btn)"/>
+    <rect x="40" y="112" width="70" height="12" rx="6" fill="#ED1908" fill-opacity=".8"/>
+    <g fill="#7A00F0" fill-opacity=".14"><rect x="22" y="148" width="110" height="64" rx="10"/><rect x="145" y="148" width="110" height="64" rx="10"/><rect x="268" y="148" width="110" height="64" rx="10"/></g>
+    <g font-size="26" text-anchor="middle"><text x="77" y="190">☕</text><text x="200" y="190">🛍️</text><text x="323" y="190">🎓</text></g>
+    <rect x="22" y="226" width="356" height="6" rx="3" fill="#ffffff" fill-opacity=".06"/>
+    <rect x="22" y="226" width="0" height="6" rx="3" fill="#ED1908"><animate attributeName="width" values="0;356;356" dur="4s" repeatCount="indefinite"/></rect>
+  </g>
+  <g font-family="Vazirmatn, Vazir, Tahoma, sans-serif" font-size="13" font-weight="700">
+    <g transform="translate(400 70)"><rect width="150" height="34" rx="12" fill="#10b981" fill-opacity=".15" stroke="#10b981" stroke-opacity=".45"/><text x="75" y="22" fill="#6ee7b7" text-anchor="middle" direction="rtl">⚡ هاست ساخته شد</text>
+      <animateTransform attributeName="transform" type="translate" values="400 70;400 60;400 70" dur="6s" repeatCount="indefinite"/></g>
+    <g transform="translate(40 330)"><rect width="150" height="34" rx="12" fill="#ED1908" fill-opacity=".14" stroke="#ED1908" stroke-opacity=".45"/><text x="75" y="22" fill="#FF6B5E" text-anchor="middle" direction="rtl">🚀 سایت آنلاین است</text>
+      <animateTransform attributeName="transform" type="translate" values="40 330;40 340;40 330" dur="7s" repeatCount="indefinite"/></g>
+  </g>
+
+  <!-- text -->
+  <g font-family="Vazirmatn, Vazir, Tahoma, sans-serif" text-anchor="start" direction="rtl">
+    <rect x="852" y="78" width="278" height="34" rx="17" fill="#ED1908" fill-opacity=".1" stroke="#ED1908" stroke-opacity=".35"/>
+    <circle cx="1112" cy="95" r="5" fill="#ED1908"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="1098" y="101" font-size="14" fill="#FF3D2E" font-weight="600">پلتفرم سایت‌ساز و هاستینگ هوشمند</text>
+    <text x="1130" y="196" font-size="84" font-weight="800" fill="url(#txt)">369 وب</text>
+    <text x="1130" y="250" font-size="26" font-weight="700" fill="#F0EDF5">هاست + دامنه + سایت آماده در چند دقیقه</text>
+    <text x="1130" y="290" font-size="17" fill="#A99BC8">۱۲ نوع سایت با پنل مدیریت کامل · شخصی‌سازی با هوش مصنوعی</text>
+    <text x="1130" y="318" font-size="17" fill="#A99BC8">استودیو محتوای تلگرام، اینستاگرام و یوتیوب</text>
+    <rect x="950" y="345" width="180" height="46" rx="14" fill="url(#btn)"/>
+    <text x="1040" y="375" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">369web.ir ←</text>
+  </g>
+</svg>

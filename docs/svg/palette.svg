@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="پالت رنگی ۳۶۹ وب">
+  <rect width="1200" height="250" rx="24" fill="#0A0A10" stroke="#7A00F0" stroke-opacity=".2"/>
+  <g font-family="Vazirmatn, Vazir, Tahoma, sans-serif" text-anchor="middle">
+    <g transform="translate(30 30)">
+      <rect width="210" height="130" rx="18" fill="#7A00F0"/><text x="105" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Primary</text><text x="105" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#7A00F0</text></g>
+    <g transform="translate(260 30)">
+      <rect width="130" height="130" rx="18" fill="#9B30FF"/><text x="65" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Primary Light</text><text x="65" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#9B30FF</text></g>
+    <g transform="translate(410 30)">
+      <rect width="130" height="130" rx="18" fill="#4A0099"/><text x="65" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Primary Deep</text><text x="65" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#4A0099</text></g>
+    <g transform="translate(560 30)">
+      <rect width="210" height="130" rx="18" fill="#ED1908"/><text x="105" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Accent</text><text x="105" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#ED1908</text></g>
+    <g transform="translate(790 30)">
+      <rect width="120" height="130" rx="18" fill="#C8BAE3"/><text x="60" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Silver</text><text x="60" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#C8BAE3</text></g>
+    <g transform="translate(930 30)">
+      <rect width="120" height="130" rx="18" fill="#050508" stroke="#7A00F0" stroke-opacity=".5"/><text x="60" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Background</text><text x="60" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#050508</text></g>
+    <g transform="translate(1070 30)">
+      <rect width="100" height="130" rx="18" fill="#F0EDF5"/><text x="50" y="160" fill="#F0EDF5" font-size="15" font-weight="700">Text</text><text x="50" y="182" fill="#A99BC8" font-size="13" font-family="monospace">#F0EDF5</text></g>
+  </g>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7A00F0"/><stop offset=".55" stop-color="#ED1908"/><stop offset="1" stop-color="#C8BAE3"/></linearGradient></defs>
+  <rect x="30" y="226" width="1140" height="8" rx="4" fill="url(#g)"/>
+</svg>
